@@ -1,0 +1,54 @@
+
+// background colors
+.colorGreenLight{
+    background-color: rgb(77, 173, 67) !important; 
+}
+.colorGreenLight-op-05{
+    background-color: rgb(77, 173, 67,0.5) !important; 
+}
+.colorGreenDark{
+    background-color: #3B8733 !important; 
+}
+.colorGreenDark-op-07{
+    background-color: rgb(59, 135, 51,0.7) !important; 
+}
+
+
+// letters color
+.letterColor{
+    color:white !important;
+}
+
+//page elements ,previous,next,numbered...
+
+.pagination li{
+    background-color:rgb(77, 173, 67) !important; 
+    color:white;
+}
+
+.fa-info-circle{
+    text-decoration-color: rgb(77, 173, 67) !important;
+    color: rgb(77, 173, 67) !important;
+}
+
+//product block
+.bgWhiteProduct{
+    background-color:rgb(255, 255, 255,0.5) !important;
+}
+
+.productsBorder{
+    border: 1px solid  rgb(59, 135, 51,0.7) !important;
+}
+
+.productInfo:hover{
+    color: rgb(235, 252, 84, 0.7) !important;
+}
+.productReport:hover{
+    color: rgba(252, 84, 84, 0.7) !important;
+}
+.opacity-0{
+    background-color:rgb(255, 255, 255,0) !important;
+}
+.opacity-05{
+    background-color:rgba(255, 255, 255, 0.5) !important;
+}

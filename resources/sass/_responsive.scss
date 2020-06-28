@@ -1,0 +1,51 @@
+// small screens
+@media screen and (max-width: 400px) {
+    #zupanijaBlok select{
+        width:25% !important;
+    }
+    #zupanijaBlok{
+        margin-left:0;
+        background-position: left;
+    }
+    .colorGreenLight-op-05 .col{
+        margin-left:25%;
+        margin-right:25%;
+        width:50%;
+    }
+    .mainContainerHeight{
+        height:auto !important;
+        width:auto !important;
+    }
+    .bgImage{
+        height:auto !important;
+    }
+    #userImage{
+        margin-left:0 !important;
+    }
+    #productsBlock{
+        height:3900px !important;
+    }
+    #welcomeText{
+        padding:0 !important;
+        margin:0 !important;
+    }
+    
+}
+@media screen and (min-width: 400px) {
+    .productBlock{
+        display:inline !important;
+    }
+    .mainContainerHeight{
+        height:70vh !important;
+        width:100vw !important;
+    }
+    #productsBlock{
+        height:1300px !important;
+    }
+}
+
+@media screen and (min-height: 400px) {
+    .bgImage{
+        height:auto;
+    }
+}

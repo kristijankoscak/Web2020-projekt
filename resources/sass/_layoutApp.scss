@@ -1,0 +1,35 @@
+body{
+    margin:0 !important;
+    padding:0 !important;
+    height:100vh !important;
+    width:100vw !important;
+    overflow-x:hidden !important;
+}
+//background image
+.bgImage{
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     background-position: center; */
+    background-image: url("/Kopg/storage/app/public/background_images/backgroundImage.jpg") !important;
+}
+
+
+// main container classes
+.mainContainerHeight{
+    height:70vh !important;
+    width:100vw !important;
+}
+.mainContainerBorders{
+    border-top: 1px solid rgb(255, 255, 255) !important;
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+// partners container
+.partnersImageSize{
+    height:105px !important;
+    width:210px !important;
+}
+#partnersContainer{
+    text-align: center;
+}
